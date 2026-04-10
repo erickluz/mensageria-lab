@@ -1,0 +1,5 @@
+C:\dev\rep\mensageria-lab\shared\src\main\java\org\erick\shared\event\OrderCreatedEvent.java
+C:\dev\rep\mensageria-lab\shared\src\main\java\org\erick\shared\event\PaymentProcessedEvent.java
+C:\dev\rep\mensageria-lab\shared\src\main\java\org\erick\shared\status\OrderStatus.java
+C:\dev\rep\mensageria-lab\shared\src\main\java\org\erick\shared\status\PaymentStatus.java
+C:\dev\rep\mensageria-lab\shared\src\main\java\org\erick\shared\util\RabbitMqConstants.java

@@ -1,0 +1,5 @@
+C:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\config\RabbitPaymentConfig.java
+C:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\PaymentConsumerApplication.java
+C:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\service\PaymentDeadLetterListener.java
+C:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\service\PaymentListener.java
+C:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\service\ProcessedEventRegistry.java

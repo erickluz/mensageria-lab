@@ -1,0 +1,6 @@
+C:\dev\rep\mensageria-lab\order-producer\src\main\java\org\erick\orderproducer\config\RabbitProducerConfig.java
+C:\dev\rep\mensageria-lab\order-producer\src\main\java\org\erick\orderproducer\controller\OrderController.java
+C:\dev\rep\mensageria-lab\order-producer\src\main\java\org\erick\orderproducer\dto\CreateOrderRequest.java
+C:\dev\rep\mensageria-lab\order-producer\src\main\java\org\erick\orderproducer\dto\OrderResponse.java
+C:\dev\rep\mensageria-lab\order-producer\src\main\java\org\erick\orderproducer\OrderProducerApplication.java
+C:\dev\rep\mensageria-lab\order-producer\src\main\java\org\erick\orderproducer\service\OrderPublisherService.java

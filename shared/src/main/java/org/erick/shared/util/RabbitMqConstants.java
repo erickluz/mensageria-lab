@@ -1,0 +1,18 @@
+package org.erick.shared.util;
+
+public final class RabbitMqConstants {
+
+    public static final String ORDER_EVENTS_EXCHANGE = "order.events";
+    public static final String DEAD_LETTER_EXCHANGE = "order.events.dlx";
+
+    public static final String ORDER_CREATED_ROUTING_KEY = "order.created";
+    public static final String PAYMENT_PROCESSED_ROUTING_KEY = "payment.processed";
+    public static final String PAYMENT_DLQ_ROUTING_KEY = "payment.dlq";
+
+    public static final String PAYMENT_QUEUE = "payment.processing.queue";
+    public static final String PAYMENT_DLQ = "payment.processing.dlq";
+    public static final String NOTIFICATION_QUEUE = "notification.queue";
+
+    private RabbitMqConstants() {
+    }
+}

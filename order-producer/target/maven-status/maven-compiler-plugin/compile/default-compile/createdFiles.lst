@@ -1,0 +1,6 @@
+org\erick\orderproducer\service\OrderPublisherService.class
+org\erick\orderproducer\config\RabbitProducerConfig.class
+org\erick\orderproducer\controller\OrderController.class
+org\erick\orderproducer\dto\CreateOrderRequest.class
+org\erick\orderproducer\dto\OrderResponse.class
+org\erick\orderproducer\OrderProducerApplication.class
