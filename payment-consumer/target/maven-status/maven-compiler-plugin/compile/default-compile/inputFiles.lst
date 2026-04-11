@@ -1,5 +1,9 @@
-C:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\config\RabbitPaymentConfig.java
-C:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\PaymentConsumerApplication.java
-C:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\service\PaymentDeadLetterListener.java
-C:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\service\PaymentListener.java
-C:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\service\ProcessedEventRegistry.java
+c:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\config\RabbitPaymentConfig.java
+c:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\messaging\event\OrderCreatedEvent.java
+c:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\messaging\event\PaymentProcessedEvent.java
+c:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\messaging\RabbitMqConstants.java
+c:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\messaging\status\PaymentStatus.java
+c:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\PaymentConsumerApplication.java
+c:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\service\PaymentDeadLetterListener.java
+c:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\service\PaymentListener.java
+c:\dev\rep\mensageria-lab\payment-consumer\src\main\java\org\erick\paymentconsumer\service\ProcessedEventRegistry.java

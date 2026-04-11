@@ -1,3 +1,6 @@
 C:\dev\rep\mensageria-lab\notification-consumer\src\main\java\org\erick\notificationconsumer\config\RabbitNotificationConfig.java
+C:\dev\rep\mensageria-lab\notification-consumer\src\main\java\org\erick\notificationconsumer\messaging\event\PaymentProcessedEvent.java
+C:\dev\rep\mensageria-lab\notification-consumer\src\main\java\org\erick\notificationconsumer\messaging\RabbitMqConstants.java
+C:\dev\rep\mensageria-lab\notification-consumer\src\main\java\org\erick\notificationconsumer\messaging\status\PaymentStatus.java
 C:\dev\rep\mensageria-lab\notification-consumer\src\main\java\org\erick\notificationconsumer\NotificationConsumerApplication.java
 C:\dev\rep\mensageria-lab\notification-consumer\src\main\java\org\erick\notificationconsumer\service\NotificationListener.java

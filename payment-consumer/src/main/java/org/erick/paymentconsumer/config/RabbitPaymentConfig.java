@@ -1,6 +1,6 @@
 package org.erick.paymentconsumer.config;
 
-import org.erick.shared.util.RabbitMqConstants;
+import org.erick.paymentconsumer.messaging.RabbitMqConstants;
 import org.springframework.amqp.core.AcknowledgeMode;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
@@ -12,6 +12,7 @@ import org.springframework.amqp.rabbit.config.RetryInterceptorBuilder;
 import org.springframework.amqp.rabbit.config.SimpleRabbitListenerContainerFactory;
 import org.springframework.amqp.rabbit.retry.MessageRecoverer;
 import org.springframework.amqp.rabbit.retry.RejectAndDontRequeueRecoverer;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -48,14 +49,20 @@ public class RabbitPaymentConfig {
     }
 
     @Bean
-    Binding paymentBinding(Queue paymentQueue, DirectExchange orderEventsExchange) {
+    Binding paymentBinding(
+            @Qualifier("paymentQueue") Queue paymentQueue,
+            @Qualifier("orderEventsExchange") DirectExchange orderEventsExchange
+    ) {
         return BindingBuilder.bind(paymentQueue)
                 .to(orderEventsExchange)
                 .with(RabbitMqConstants.ORDER_CREATED_ROUTING_KEY);
     }
 
     @Bean
-    Binding paymentDeadLetterBinding(Queue paymentDeadLetterQueue, DirectExchange deadLetterExchange) {
+    Binding paymentDeadLetterBinding(
+            @Qualifier("paymentDeadLetterQueue") Queue paymentDeadLetterQueue,
+            @Qualifier("deadLetterExchange") DirectExchange deadLetterExchange
+    ) {
         return BindingBuilder.bind(paymentDeadLetterQueue)
                 .to(deadLetterExchange)
                 .with(RabbitMqConstants.PAYMENT_DLQ_ROUTING_KEY);

@@ -1,7 +1,7 @@
 package org.erick.paymentconsumer.service;
 
-import org.erick.shared.event.OrderCreatedEvent;
-import org.erick.shared.util.RabbitMqConstants;
+import org.erick.paymentconsumer.messaging.RabbitMqConstants;
+import org.erick.paymentconsumer.messaging.event.OrderCreatedEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;

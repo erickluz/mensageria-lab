@@ -5,9 +5,9 @@ import java.util.UUID;
 
 import org.erick.orderproducer.dto.CreateOrderRequest;
 import org.erick.orderproducer.dto.OrderResponse;
-import org.erick.shared.event.OrderCreatedEvent;
-import org.erick.shared.status.OrderStatus;
-import org.erick.shared.util.RabbitMqConstants;
+import org.erick.orderproducer.messaging.RabbitMqConstants;
+import org.erick.orderproducer.messaging.event.OrderCreatedEvent;
+import org.erick.orderproducer.messaging.status.OrderStatus;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;

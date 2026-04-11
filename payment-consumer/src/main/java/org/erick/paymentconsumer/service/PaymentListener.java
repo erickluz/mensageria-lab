@@ -3,10 +3,10 @@ package org.erick.paymentconsumer.service;
 import java.time.Instant;
 import java.util.UUID;
 
-import org.erick.shared.event.OrderCreatedEvent;
-import org.erick.shared.event.PaymentProcessedEvent;
-import org.erick.shared.status.PaymentStatus;
-import org.erick.shared.util.RabbitMqConstants;
+import org.erick.paymentconsumer.messaging.RabbitMqConstants;
+import org.erick.paymentconsumer.messaging.event.OrderCreatedEvent;
+import org.erick.paymentconsumer.messaging.event.PaymentProcessedEvent;
+import org.erick.paymentconsumer.messaging.status.PaymentStatus;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
