@@ -1,5 +1,0 @@
-org\erick\shared\status\PaymentStatus.class
-org\erick\shared\util\RabbitMqConstants.class
-org\erick\shared\event\OrderCreatedEvent.class
-org\erick\shared\event\PaymentProcessedEvent.class
-org\erick\shared\status\OrderStatus.class

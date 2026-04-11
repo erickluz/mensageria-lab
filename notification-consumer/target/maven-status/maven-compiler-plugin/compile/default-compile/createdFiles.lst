@@ -1,3 +1,0 @@
-org\erick\notificationconsumer\config\RabbitNotificationConfig.class
-org\erick\notificationconsumer\NotificationConsumerApplication.class
-org\erick\notificationconsumer\service\NotificationListener.class

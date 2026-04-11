@@ -1,9 +1,0 @@
-c:\dev\rep\mensageria-lab\order-producer\src\main\java\org\erick\orderproducer\config\RabbitProducerConfig.java
-c:\dev\rep\mensageria-lab\order-producer\src\main\java\org\erick\orderproducer\controller\OrderController.java
-c:\dev\rep\mensageria-lab\order-producer\src\main\java\org\erick\orderproducer\dto\CreateOrderRequest.java
-c:\dev\rep\mensageria-lab\order-producer\src\main\java\org\erick\orderproducer\dto\OrderResponse.java
-c:\dev\rep\mensageria-lab\order-producer\src\main\java\org\erick\orderproducer\messaging\event\OrderCreatedEvent.java
-c:\dev\rep\mensageria-lab\order-producer\src\main\java\org\erick\orderproducer\messaging\RabbitMqConstants.java
-c:\dev\rep\mensageria-lab\order-producer\src\main\java\org\erick\orderproducer\messaging\status\OrderStatus.java
-c:\dev\rep\mensageria-lab\order-producer\src\main\java\org\erick\orderproducer\OrderProducerApplication.java
-c:\dev\rep\mensageria-lab\order-producer\src\main\java\org\erick\orderproducer\service\OrderPublisherService.java

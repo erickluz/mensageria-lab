@@ -1,5 +1,0 @@
-org\erick\paymentconsumer\PaymentConsumerApplication.class
-org\erick\paymentconsumer\service\PaymentDeadLetterListener.class
-org\erick\paymentconsumer\config\RabbitPaymentConfig.class
-org\erick\paymentconsumer\service\PaymentListener.class
-org\erick\paymentconsumer\service\ProcessedEventRegistry.class
