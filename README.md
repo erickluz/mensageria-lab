@@ -9,6 +9,10 @@ Laboratorio de mensageria em Java com Maven e RabbitMQ, agora organizado em serv
 
 As classes antes centralizadas em `shared` foram internalizadas em cada servico para remover o acoplamento entre modulos.
 
+## Fluxo da aplicacao
+
+![Fluxo da aplicacao](flow.png)
+
 ## Subir o RabbitMQ
 
 ```bash
