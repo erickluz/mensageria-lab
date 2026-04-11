@@ -1,0 +1,27 @@
+# Build artifacts
+**/target/
+**/build/
+**/out/
+
+# Java bytecode and archives generated outside target
+*.class
+*.jar
+*.war
+*.ear
+
+# Local dependency caches
+**/.m2/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
